@@ -10,22 +10,31 @@ body {
 }
 
 .header img {
-  float: left;
+  position: center;
+  float: center;
+  align-self: center;
   width: 50vh;
   height: 25vh;
 }
 
+image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 #menu ul {
   list-style: none;
-  width: auto;
-  margin: 30vh;
   padding: 2vh;
+  width: 70%;
+  margin: auto;
 }
 
 #menu li {
   background-color: rgb(236, 188, 142);
   border: none;
-  padding: 15px 32px;
+  padding: 25px 25px;
   text-align: center;
   text-decoration: cornsilk;
   display: inline-block;
@@ -39,25 +48,8 @@ body {
   padding-left: 10px;
   margin-left: 100;
 }
-
-#menu1 ul {
-  list-style: none;
-
-  width: auto;
-
-  margin: 1vh;
-  padding: 1vh;
-}
-
-#menu1 li {
-  list-style-type: none;
-  display: inline-block;
-  padding-right: 10%;
-  width: auto;
-  margin-right: 0.5%;
-
-  padding-left: 1vh;
-  margin-left: 4vh;
+li a {
+  color: black;
 }
 
 #history {
@@ -146,4 +138,9 @@ body {
 }
 #des {
   font-size: 2vh;
+}
+.footer {
+  padding: 20vh;
+  position: relative;
+  display: flex;
 }
