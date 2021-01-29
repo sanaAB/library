@@ -1,0 +1,149 @@
+html {
+  background-color: rgb(247, 246, 204);
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.header img {
+  float: left;
+  width: 50vh;
+  height: 25vh;
+}
+
+#menu ul {
+  list-style: none;
+  width: auto;
+  margin: 30vh;
+  padding: 2vh;
+}
+
+#menu li {
+  background-color: rgb(236, 188, 142);
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: cornsilk;
+  display: inline-block;
+  font-size: 16px;
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 10%;
+  width: auto;
+  margin-right: 0.5%;
+  border-radius: 25px;
+  padding-left: 10px;
+  margin-left: 100;
+}
+
+#menu1 ul {
+  list-style: none;
+
+  width: auto;
+
+  margin: 1vh;
+  padding: 1vh;
+}
+
+#menu1 li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 10%;
+  width: auto;
+  margin-right: 0.5%;
+
+  padding-left: 1vh;
+  margin-left: 4vh;
+}
+
+#history {
+  padding-left: 10vh;
+  padding-top: 10vh;
+  display: flex;
+  max-width: 100%;
+}
+
+#indexp1 {
+  color: black;
+  display: inline-block;
+  position: relative;
+  left: 7vh;
+  width: auto;
+  height: auto;
+
+  font-style: normal;
+  font-weight: 2vh;
+  font-size: 2vh;
+}
+
+#types {
+  padding-top: 10vh;
+  padding-right: 10vh;
+  display: flex;
+  float: right;
+  max-width: 100%;
+}
+
+#indexp2 {
+  color: black;
+  display: inline-block;
+  position: relative;
+  left: 4vh;
+  width: auto;
+  height: auto;
+
+  font-style: normal;
+  font-weight: 200;
+  font-size: 2vh;
+}
+#buildings {
+  padding-left: 10vh;
+  padding-top: 30vh;
+  display: flex;
+  max-width: 100%;
+}
+
+#indexp3 {
+  color: black;
+  display: inline-block;
+  position: relative;
+  left: 7vh;
+  width: auto;
+  height: auto;
+
+  font-style: normal;
+  font-weight: 200;
+  font-size: 2vh;
+}
+#usage {
+  padding-top: 10vh;
+  padding-right: 10vh;
+  display: flex;
+  float: right;
+  max-width: 100%;
+}
+
+#indexp4 {
+  color: black;
+  display: inline-block;
+  position: relative;
+  left: 7vh;
+  width: auto;
+  height: auto;
+
+  font-style: normal;
+  font-weight: 200;
+  font-size: 2vh;
+}
+
+#about {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2vh;
+}
+#des {
+  font-size: 2vh;
+}
