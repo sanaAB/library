@@ -5,16 +5,22 @@ html {
   height: 100vh;
 }
 
+img.left {
+  float: left;
+}
+
 body {
   font-family: sans-serif;
 }
 
 .header img {
   position: center;
+  text-align: center;
+  margin: auto;
   float: center;
   align-self: center;
-  width: 50vh;
-  height: 25vh;
+  width: 100vh;
+  height: 50vh;
 }
 
 image {
@@ -22,6 +28,7 @@ image {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  float: left;
 }
 
 #menu ul {
@@ -48,8 +55,11 @@ image {
   padding-left: 10px;
   margin-left: 100;
 }
+
 li a {
   color: black;
+  text-align: center;
+  float: center;
 }
 
 #history {
@@ -140,7 +150,15 @@ li a {
   font-size: 2vh;
 }
 .footer {
+  background-color: rgb(236, 188, 142);
   padding: 20vh;
   position: relative;
   display: flex;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
