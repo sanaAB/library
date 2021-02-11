@@ -41,25 +41,19 @@ image {
 #menu li {
   background-color: rgb(236, 188, 142);
   border: none;
-  padding: 25px 25px;
   text-align: center;
   text-decoration: cornsilk;
-  display: inline-block;
   font-size: 16px;
   list-style-type: none;
-  display: inline-block;
-  padding-right: 10%;
-  width: auto;
-  margin-right: 0.5%;
   border-radius: 25px;
-  padding-left: 10px;
-  margin-left: 100;
+  display: inline-block;
 }
 
 li a {
   color: black;
   text-align: center;
-  float: center;
+  display: inline-block;
+  padding: 20px;
 }
 
 #history {
@@ -85,42 +79,39 @@ li a {
 #types {
   padding-top: 10vh;
   padding-right: 10vh;
-  display: flex;
-  float: right;
   max-width: 100%;
+  text-align: center;
 }
 
 #indexp2 {
+  display: flex;
   color: black;
-  display: inline-block;
-  position: relative;
-  left: 4vh;
-  width: auto;
-  height: auto;
-
   font-style: normal;
   font-weight: 200;
   font-size: 2vh;
 }
+
+#indexp2 p {
+  padding-right: 20px;
+}
+
 #buildings {
   padding-left: 10vh;
-  padding-top: 30vh;
+  padding-top: 10vh;
   display: flex;
   max-width: 100%;
+  text-align: center;
 }
 
 #indexp3 {
+  display: flex;
   color: black;
-  display: inline-block;
-  position: relative;
-  left: 7vh;
-  width: auto;
-  height: auto;
-
   font-style: normal;
   font-weight: 200;
   font-size: 2vh;
+  margin-left: 10px;
 }
+
 #usage {
   padding-top: 10vh;
   padding-right: 10vh;
